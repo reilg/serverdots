@@ -9,4 +9,4 @@ Simple configs to make server usage better.
 
 Installation
 ---
-`sh <(curl -sL https://raw.githubusercontent.com/reilg/serverdots/master/install)`
+`sh <(curl -sL https://raw.githubusercontent.com/reilg/serverdots/master/install.sh)`
