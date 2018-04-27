@@ -51,8 +51,9 @@ if [ "$UPDATE_PLUGINS" != "n" ]
 then
 	# Install Vim Plugins
 	printf "Installing Vim Plugins, Will take a while depending on connection speed!\n"
-	nvim +PlugUpgrade +PlugClean! +PlugUpdate +qall
+	vi +PlugUpgrade +PlugClean! +PlugUpdate +qall
 fi
 
-# Install done! WEW!
-printf "Install DONE! WEW!\n"
+printf "ERROR! Virus Detected!\n.\n.\n.\n.\n.\n.\n.\n.\n.\n"
+printf "Just kidding. We good."
+
