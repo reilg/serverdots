@@ -41,17 +41,17 @@ else
 fi
 
 # Overwrite vimrc file
-cp -r $DOTFILES_TMP/.vimrc ~/.vimrc 2&>1
+cp -r $DOTFILES_TMP/.vimrc ~/.vimrc
 
 # Overwrite bashrc 
-cp -r $DOTFILES_TMP/.bashrc ~/.bashrc 2&>1
+cp -r $DOTFILES_TMP/.bashrc ~/.bashrc
 
 # Check if we want to install/update plugins
 if [ "$UPDATE_PLUGINS" != "n" ]
 then
 	# Install Vim Plugins
 	printf "Installing Vim Plugins, Will take a while depending on connection speed!\n"
-	vi +PlugUpgrade +PlugClean! +PlugUpdate +qall
+	vim +PlugUpgrade +PlugClean! +PlugUpdate +qall
 fi
 
 printf "ERROR! Virus Detected!\n.\n.\n.\n.\n.\n.\n.\n.\n.\n"

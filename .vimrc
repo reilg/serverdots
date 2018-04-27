@@ -130,7 +130,7 @@ set hlsearch
 set ignorecase smartcase
 
 " Show invisible characters, e.g. tabs and trailing whitespace.
-set list listchars=tab:> ,trail:-,extends:>,precedes:<,eol:¬
+set list listchars=tab:\›\ ,trail:-,extends:>,precedes:<,eol:¬
 
 " Show line numbers.
 set number

@@ -18,4 +18,6 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 ```
 
 Run this to install the dotfiles.
-`sh <(curl -sL https://raw.githubusercontent.com/reilg/serverdots/master/install.sh)`
+```
+sh <(curl -sL https://raw.githubusercontent.com/reilg/serverdots/master/install.sh)
+```
