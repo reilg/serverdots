@@ -41,10 +41,10 @@ else
 fi
 
 # Overwrite vimrc file
-cp -r $DOTFILES_TMP/.vimrc ~/.vimrc
+cp -r $DOTFILES_TMP/.vimrc ~/.vimrc 2&>1
 
 # Overwrite bashrc 
-cp -r $DOTFILES_TMP/.bashrc ~/.bashrc
+cp -r $DOTFILES_TMP/.bashrc ~/.bashrc 2&>1
 
 # Check if we want to install/update plugins
 if [ "$UPDATE_PLUGINS" != "n" ]
@@ -55,5 +55,5 @@ then
 fi
 
 printf "ERROR! Virus Detected!\n.\n.\n.\n.\n.\n.\n.\n.\n.\n"
-printf "Just kidding. We good."
+printf "Just kidding. We good.\n"
 
